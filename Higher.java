@@ -10,7 +10,7 @@ class Higher{
         
     }
     @Test 
-    public void testHigher(int a,int b){
+    public void testHigher(int x,int y){
         assertEquals(25,higher(25,10));
         assertEquals(5,higher(5,3));
 }
